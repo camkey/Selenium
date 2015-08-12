@@ -33,8 +33,7 @@ namespace ConsoleApplication1
             //login.SendKeys("teste.membro01");
             //login = driver.FindElement(By.Id("Password"));
             //login.SendKeys("Class@2015");
-                        
-
+                    
             driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
 
             var OpenLink = driver.FindElement(By.Id("dropdown-item-2"));
